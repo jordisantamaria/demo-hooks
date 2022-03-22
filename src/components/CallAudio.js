@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import knockSound from '../assets/Call.mp3';
 
-const AppAudio = () => {
+const CallAudio = () => {
     const audio = new Audio(knockSound)
     const audioEndListener = () => {
         audio.currentTime = 0;
@@ -24,4 +24,4 @@ const AppAudio = () => {
     );
 };
 
-export default AppAudio;
+export default CallAudio;
